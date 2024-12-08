@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+h1 {
+    text-align: center;
+}
+#inputArea {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+#nameValueInput {
+    width: 60%;
+    padding: 10px;
+    font-size: 16px;
+}
+button {
+    padding: 10px 15px;
+    margin-left: 10px;
+    font-size: 16px;
+}
+#pairList {
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    list-style-type: none;
+    padding: 0;
+}
+#pairList li {
+    background-color: #fff;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#pairList li:hover {
+    background-color: #e2e2e2;
+}
